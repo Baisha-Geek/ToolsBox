@@ -59,12 +59,12 @@
     *   [Octave]
     *   [Numpy]
 
-<h2  id='1'>文档篇</h2>
+<h1  id='1'>文档篇</h1>
 ===
 
 ![Documents](http://toolbox.phodal.com/images/documents/documents.png)
 
-<h2  id='1.1'>Pandoc</h2>
+Pandoc
 ---
 
 > Pandoc是一个标记语言转换工具，可实现不同标记语言间的格式转换，堪称该领域中的“瑞士军刀”。
@@ -91,8 +91,8 @@ XHTML、 HTML5、 以及HTML幻灯片Slidy， S5，或者DZSlides、Microsoft Wo
 
 如果要转为PDF，则需要另外的一个工具——LaTeX
 
-<h2  id='1.2'>Graphviz</h2>
 
+Graphviz
 ---
 
 > Graphviz （英文：Graph Visualization Software的缩写）是一个由AT&T实验室启动的开源工具包，用于绘制DOT语言脚本描述的图形。它也提供了供其它软件使用的库。
@@ -111,7 +111,7 @@ XHTML、 HTML5、 以及HTML幻灯片Slidy， S5，或者DZSlides、Microsoft Wo
 
 简单、粗暴到没有朋友。
 
-<h2  id='1.3'>ImageMagick</h2>
+ImageMagick
 ---
 
 > ImageMagick (TM) 是一个免费的创建、编辑、合成图片的软件。它可以读取、转换、写入多种格式的图片。图片切割、颜色替换、各种效果的应用，图片的旋转、组合，文本，直线，多边形，椭圆，曲线，附加到图片伸展旋转。
@@ -181,7 +181,7 @@ Gitbook是一个命令行工具(node.js库)，可以把你的Markdown文件汇�
 
 官网：[Gitbook](https://www.gitbook.com/)
 
-<h2  id='2'>图形工具篇</h2>
+<h1  id='2'>图形工具篇</h1>
 ===
 
 在上一篇《全栈工程师的百宝箱：黑魔法之文档篇》我们介绍了一些文档工具，今天让我来分享一下，我常用的一些图形工具。
@@ -306,7 +306,7 @@ OpenSuSE在KDE桌面下效果最赞了——因为KDE和OpenSuSE都是德国制�
 
 ![vmap.jpg](http://toolbox.phodal.com/images/graphics/vmap.jpg)
 
-<h2 id="3">Chrome插件篇</h2>
+<h1 id="3">Chrome插件篇</h1>
 ===
 
 Chrome DevTools
@@ -423,7 +423,7 @@ Capture Webpage Screenshot Entirely
 
 这是一个截图工具，可以用于截取页面长图。
 
-<h2 id="4">外设篇</h2>
+<h1 id="4">外设篇</h1>
 ===
 
 机械键盘
@@ -468,7 +468,7 @@ Kindle
 
 Kindle，看书的人都知道。
 
-<h2 id="5">Ops</h2>
+<h1 id="5">Ops</h1>
 ======
 
 Nginx Pagespeed
@@ -573,15 +573,12 @@ Jenkins
 除了将Jenkins有于持续集成环境外，我们还可以使用Jenkins来完成一些自动化的部署工作。
 
 
-自动化
-===
-
 Selenium
 ---
 
 > Selenium 是一个用于 Web 应用程序测试的工具。Selenium 的测试用例直接运行在浏览器中，就像真正的用户在操作一样。与主流的 web 自动化测试框架还有 QTP，基于 Ruby 的 WATIR 等相比，Selenium 支持 IE、Mozilla Firefox 多种浏览器，支持自动录制脚本以及 Java、c#、ruby 等多种运行语言的自动生成，用例制作快捷，运行快速。相比起来 Selenium 要显得更为灵活实用。
 
-<h2 id="6">硬件篇</h2>
+<h1 id="6">硬件篇</h1>
 ===
 
 Raspberry Pi
@@ -607,7 +604,7 @@ NodeMCU
 > NodeMCU,是一个开源的物联网平台。 它使用Lua脚本语言编程。该平台基于eLua 开源项目,底层使用ESP8266 sdk 0.9.5版本。该平台使用了很多开源项目, 例如 lua-cjson, spiffs[5]. NodeMCU包含了可以运行在 esp8266 Wi-Fi SoC芯片之上的固件,以及基于ESP-12模组的硬件。
 
 
-<h2 id="7">API</h2>
+<h1 id="7">API</h1>
 ===
 
 Moco
@@ -624,7 +621,7 @@ Swagger
 
 > Swagger是一种和语言无关的规范和框架，用于定义服务接口，主要用于描述RESTful的API。它专注于为API创建优秀的文档和客户端库。支持Swagger的API可以为API方法生成交互式的文档，让用户可以通过以可视化的方式试验，查看请求和响应、头文件和返回代码，从而发现API的功能。它本身就非常强大，但是Swagger框架还支持为多种流行的语言——包括JavaScript、Python、Ruby、Java、Scala等等——生成客户端代码。
 
-<h2 id="8">CLI</h2>
+<h1 id="8">CLI</h1>
 ===
 
 tree
@@ -682,7 +679,7 @@ Cache-Control: max-age=0, no-cache
 curl --data "_method=PUT&led1=1&sensors1=22&sensors2=12&temperature=14" http://b.phodal.com/athome/1
 ```
 
-<h2 id="9">Backend</h2>
+<h1 id="9">Backend</h1>
 ===
 
 Spring MVC
@@ -729,7 +726,7 @@ Ruby On Rails
 
 > 是一个使用Ruby语言写的开源Web应用框架，它是严格按照MVC结构开发的。它努力使自身保持简单，来使实际的应用开发时的代码更少，使用最少的配置。
 
-<h2 id="10">科学</h2>
+<h1 id="10">科学</h1>
 ===
 
 Octave
